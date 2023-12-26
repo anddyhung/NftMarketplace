@@ -10,16 +10,15 @@
     },
     "devDependencies": {
         "@chainlink/contracts": "^0.4.0",
-        "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+        "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
         "@nomiclabs/hardhat-etherscan": "^3.0.0",
-        "@nomiclabs/hardhat-waffle": "^2.0.1",
         "@openzeppelin/contracts": "^5.0.1",
         "babel-eslint": "^10.1.0",
         "chai": "^4.3.4",
         "dotenv": "^16.0.0",
         "ethereum-waffle": "^4.0.10",
-        "ethers": "^5.5.1",
-        "hardhat": "^2.9.1",
+        "ethers": "^6.9.1",
+        "hardhat": "^2.19.3",
         "hardhat-contract-sizer": "^2.4.0",
         "hardhat-deploy": "^0.9.29",
         "hardhat-gas-reporter": "^1.0.7",
@@ -32,5 +31,16 @@
     },
     "mocha": {
         "timeout": 10000000
+    },
+    "dependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "2.0.0",
+        "@nomicfoundation/hardhat-ethers": "^3.0.2",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "@nomicfoundation/hardhat-verify": "^2.0.3",
+        "@typechain/ethers-v6": "^0.5.1",
+        "@typechain/hardhat": "^9.1.0",
+        "@types/chai": "^4.3.11",
+        "@types/mocha": "^10.0.6"
     }
 }
